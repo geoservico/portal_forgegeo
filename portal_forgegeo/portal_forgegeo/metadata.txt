@@ -1,0 +1,18 @@
+[general]
+name=Portal - FORGEGEO
+description=Plugin desenvolvido para dar suporte técnico à análise de processos do Cadastro Ambiental Rural — CAR. Este plugin funciona como um hub central para todos os serviços da Forgegeo/Geoserviço.
+version=2.0.0
+qgisMinimumVersion=3.0
+author=Geoserviço e FORGEGEO
+about=Este plugin funciona como um hub central para todos os serviços da Forgegeo/Geoserviço, oferecendo suporte técnico para análise de processos do Cadastro Ambiental Rural (CAR) e integração com diversas ferramentas e serviços.
+category=Web
+icon=icon.png
+tags=portal, forgegeo, geoservico, hub, CAR, analise, ambiental, rural
+experimental=False
+deprecated=False
+license=GPL version 3 or later
+license_file=LICENSE
+server=False
+homepage=https://geoservico.com.br/#portfolio
+repository=https://github.com/forgegeo/portal-forgegeo (placeholder, por favor, atualize com o repositório real)
+external_dependencies=requests, earthengine-api, beautifulsoup4, numpy, psycopg2-binary
