@@ -1,0 +1,24 @@
+[general]
+name=Mosaic Clipper
+qgisMinimumVersion=3.40
+qgisMaximumVersion=3.99
+description=Plugin QGIS para download e carregamento automatico de imagens Landsat (2000-2025) em falsa cor via Google Earth Engine. Recorta por mascara vetorial e carrega automaticamente como camadas raster.
+version=0.0.5
+author=Tecno. Geoproc. Fabricio Marcal
+email=contato@geoservico.com.br
+url=https://github.com/geoservico/mosaic-clipper
+repository=https://github.com/geoservico/mosaic-clipper
+tracker=https://github.com/geoservico/mosaic-clipper/issues
+changelog=
+    0.0.5 - Correcao definitiva: Extracao robusta de coordenadas para MultiPolygon. Multiplas estrategias de conversao para maxima compatibilidade.
+    0.0.4 - Correcao: Suporte para geometrias MultiPolygon. Usa bounding box para converter MultiPolygon em Polygon valido para EE.
+    0.0.3 - Simplificacao: Remocao da exportacao para Google Drive. Foco exclusivo em download local e carregamento automatico de raster no QGIS.
+    0.0.2 - Correcao: Adicionar campo Project ID obrigatorio para inicializacao do GEE. Implementar carregamento automatico de raster no QGIS apos download.
+    0.0.1 - Versao inicial do plugin Mosaic Clipper com integracao GEE e serie temporal Landsat (2000-2025).
+tags=landsat,clipper,raster,earth_engine,gee,download,native
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
+server=False
+hasProcessingProvider=False
