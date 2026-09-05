@@ -1,0 +1,20 @@
+[general]
+name=Portal - FORGEGEO
+email=assinatura.geoservico@gmail.com
+author=Geoservico and FORGEGEO
+qgisMinimumVersion=3.0
+description=Plugin central do Forgegeo/Geoservico para suporte técnico a processos do Cadastro Ambiental Rural (CAR) e integração com ferramentas de análise, incluindo GeoNexus 1.16 e Mosaic Clipper com sensores Landsat, SPOT e Sentinel-2.
+about=Este plugin funciona como um hub central dos serviços Forgegeo/Geoservico, oferecendo suporte técnico para processos do Cadastro Ambiental Rural (CAR) e integração com ferramentas de geoprocessamento, incluindo o GeoNexus 1.16 e o Mosaic Clipper multissensor.
+version=3.3
+repository=https://github.com/geoservico/portal_forgegeo
+tracker=https://github.com/geoservico/portal_forgegeo/issues
+category=Web
+icon=icon.png
+tags=portal, forgegeo, geoservico, hub, CAR, analysis, environmental, rural
+experimental=False
+deprecated=False
+license=GPL version 3 or later
+license_file=LICENSE
+server=False
+homepage=https://geoservico.com.br/#portfolio
+external_dependencies=requests, earthengine-api, beautifulsoup4, numpy, psycopg2-binary
