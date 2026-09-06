@@ -1,0 +1,19 @@
+# Dependências do Plugin GeoServiço-CLIPPER
+
+# Google Earth Engine API
+earthengine-api>=0.1.400
+
+# Processamento de dados
+numpy>=1.21.0
+
+# Manipulação de rasters
+GDAL>=3.4.0
+
+# Requisições HTTP
+requests>=2.28.0
+
+# JSON
+# (incluído na stdlib)
+
+# PyQGIS
+# (incluído no QGIS)

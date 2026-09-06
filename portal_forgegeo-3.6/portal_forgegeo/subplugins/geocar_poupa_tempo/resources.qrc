@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/plugins/car_pa_poupa_tempo" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
+

@@ -1,0 +1,29 @@
+[general]
+name=GeoServico-CLIPPER
+qgisMinimumVersion=3.40
+qgisMaximumVersion=3.99
+description=Plugin profissional para recorte de imagens MapBiomas. Gera automaticamente: 1. Raster classificado; 2. Camada vetorial consolidada (Dissolve); 3. Relatorio PDF Profissional em Retrato (A4) com Mapa Sem Moldura e Tabela de Areas Harmonizada. SEM DEPENDENCIAS EXTERNAS. Acesso direto via GCS sem autenticacao. Suporta Collection 10 (1985-2024).
+version=7.0.9
+author=Tecno. Geoproc. Fabricio Marcal
+email=contato@geoservico.com.br
+url=https://github.com/geosservico/geosservico-clipper
+repository=https://github.com/geosservico/geosservico-clipper
+tracker=https://github.com/geosservico/geosservico-clipper/issues
+changelog=
+    7.0.9 - Ajuste: Titulo do relatorio simplificado para "Analise Temporal - Ano [ANO]".
+    7.0.8 - Ajuste: Titulo do relatorio conforme modelo anexo (Linha 2 com iniciais em maiusculo).
+    7.0.7 - Ajuste: Titulo do relatorio em duas linhas para melhor organizacao visual.
+    7.0.6 - Melhoria: Relatorio PDF em orientacao Retrato (A4), sem moldura no mapa e design harmonizado profissional.
+    7.0.5 - Correcao: Forcada a renderizacao do HTML (loadHtml) para evitar tabela em branco no PDF.
+    7.0.4 - Correcao: Uso de addMultiFrame e QgsLayoutFrame para QgsLayoutItemHtml no motor de relatorios.
+    7.0.3 - Correcao: Substituicao de setContent por setHtml em QgsLayoutItemHtml para compatibilidade QGIS 3.40+.
+    7.0.2 - Correcao: Estrutura de arquivos no ZIP e erro de Class Factory().
+    7.0.1 - Correcao: Importacoes ausentes (traceback, QFont, QgsLayoutItemPage).
+    7.0.0 - Melhoria: Relatorio PDF nativo do QGIS (sem fpdf2).
+tags=mapbiomas,clipper,raster,vector,pdf,report,qgis_layout,native,areas,dissolve
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
+server=False
+hasProcessingProvider=False
