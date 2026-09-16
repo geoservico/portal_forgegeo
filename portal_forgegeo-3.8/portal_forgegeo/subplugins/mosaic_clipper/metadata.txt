@@ -1,0 +1,28 @@
+[general]
+name=Mosaic Clipper
+qgisMinimumVersion=3.40
+qgisMaximumVersion=3.99
+description=Plugin QGIS para selecao anual, melhoria visual e recorte de imagens Landsat 5, 7, 8 e 9, SPOT 2, 4 e 5 e Sentinel-2 via Google Earth Engine. Aplica stretch visual, gamma, saturacao leve, conversao para 8 bits e carregamento automatico no QGIS.
+version=0.0.9
+author=Tecno. Geoproc. Fabricio Marcal
+email=contato@geoservico.com.br
+url=https://github.com/geoservico/mosaic-clipper
+repository=https://github.com/geoservico/mosaic-clipper
+tracker=https://github.com/geoservico/mosaic-clipper/issues
+changelog=
+    0.0.9 - Reduzido o número de cenas Sentinel-2 avaliadas simultaneamente para evitar o erro de agregações concorrentes do Earth Engine.
+    0.0.8 - Adicionado Sentinel-2A/2B com composicao B11-B8-B4, ranking por cobertura e nuvens SCL dentro do imóvel, escala de exportacao de 10 m e disponibilidade de 2017 a 2027.
+    0.0.7 - Adicionada selecao de sensor Landsat ou SPOT. Suporte a SPOT 2/4/5 de 2007 a 2009, com composicoes S-N-R e N-R-G e divisao de 2008 em periodos ANTES e POS.
+    0.0.6 - Suporte combinado a Landsat 5, 7, 8 e 9, selecao de uma cena anual por cobertura e nuvem, stretch visual por percentis, gamma, saturacao leve e conversao para UInt8.
+    0.0.5 - Correcao definitiva: Extracao robusta de coordenadas para MultiPolygon. Multiplas estrategias de conversao para maxima compatibilidade.
+    0.0.4 - Correcao: Suporte para geometrias MultiPolygon. Usa bounding box para converter MultiPolygon em Polygon valido para EE.
+    0.0.3 - Simplificacao: Remocao da exportacao para Google Drive. Foco exclusivo em download local e carregamento automatico de raster no QGIS.
+    0.0.2 - Correcao: Adicionar campo Project ID obrigatorio para inicializacao do GEE. Implementar carregamento automatico de raster no QGIS apos download.
+    0.0.1 - Versao inicial do plugin Mosaic Clipper com integracao GEE e serie temporal Landsat (2000-2025).
+tags=landsat,spot,sentinel-2,clipper,raster,earth_engine,gee,download,native
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
+server=False
+hasProcessingProvider=False
